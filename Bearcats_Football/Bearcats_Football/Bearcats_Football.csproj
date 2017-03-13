@@ -45,11 +45,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Highcharts.Web.Mvc">
-      <HintPath>..\..\..\..\Downloads\Highcharts_ASPNET_MVC_4_1_7_0\bin\Highcharts.Web.Mvc.dll</HintPath>
+    <Reference Include="Highcharts.Web.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Highcharts.Web.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="Highstock.Web.Mvc">
-      <HintPath>..\..\..\..\Downloads\Highcharts_ASPNET_MVC_4_1_7_0\bin\Highstock.Web.Mvc.dll</HintPath>
+    <Reference Include="Highstock.Web.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Highstock.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.0.1011, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
